@@ -98,6 +98,15 @@ To run:
 cargo +nightly fmt
 ```
 
+## Download All Bitwarden Repositories
+
+Scripts are available to download all public Bitwarden repositories to your local machine. See [DOWNLOAD_REPOS.md](DOWNLOAD_REPOS.md) for detailed instructions.
+
+Quick start:
+```bash
+./scripts/download-bitwarden-repos.sh /path/to/target/directory
+```
+
 ## Contribute
 
 Code contributions are welcome! Please commit any pull requests against the `main` branch. Learn
